@@ -32,7 +32,7 @@ wallets_file_path = os.path.join(directory, WALLETS_FILE_NAME)
 load_dotenv(env_file_path)
 
 # Environment variable validation
-required_env_vars = ["ETHERSCAN_API_KEY"]
+required_env_vars = ["5HDRX437URRRATZJ19X4WCFKB6FSEEADNI"]
 missing_vars = [var for var in required_env_vars if not os.getenv(var)]
 if missing_vars:
     raise EnvironmentError(f"Missing environment variables: {', '.join(missing_vars)}")
